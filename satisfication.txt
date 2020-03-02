@@ -1,0 +1,5 @@
+rm -rf bert
+git clone https://github.com/google-research/bert bert
+pip3 install deeppavlov
+pip3 uninstall keras-contrib
+pip3 install git+https://www.github.com/HoldenHu/keras-contrib.git
